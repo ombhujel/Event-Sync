@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Search Events Nearby</title>
+		<style>
+			body, form{
+				margin:20px auto;
+				max-width:800px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#description{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+			input#location{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<form action="search" method="get">
+			<fieldset>
+				<legend>Please put the zipcode to find all the events near you:</legend>
+				<label for="postalCode">Zip Code:</label>
+				<input id="postalCode" name="postalCode" type="text" />
+				
+			</fieldset>
+		</form>
+	</body>
+</html>
