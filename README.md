@@ -7,5 +7,4 @@ their Google Calender with just one click.
 
 The credential file is under auth, and the credentials are partially removed.
 
-The sequence diagram is provided and also a screencast explainig all the code and 
-api calls in detail.
+The sequence diagram is provided which explains all the events that happens during one interaction.
